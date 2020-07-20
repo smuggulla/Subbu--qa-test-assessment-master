@@ -1,0 +1,1594 @@
+[
+  {
+    "description": "    As a user\n    I search the charcter/planet which is not valid\n    So that I should not see any details in search results",
+    "keyword": "Feature",
+    "name": "Search for a Invlid character /planet",
+    "line": 2,
+    "id": "search-for-a-invlid-character-/planet",
+    "tags": [
+      {
+        "name": "@searchError",
+        "line": 1
+      },
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/searchError.feature",
+    "elements": [
+      {
+        "id": "search-for-a-invlid-character-/planet;search-invalid-character-name-or-planet",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search invalid character name or planet",
+        "tags": [
+          {
+            "name": "@searchError",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"people\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for \"Jarrod Johnston\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click submit button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should only see \"0\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see \"Not found.\" message",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-invlid-character-/planet;search-invalid-character-name-or-planet",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Search invalid character name or planet",
+        "tags": [
+          {
+            "name": "@searchError",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"planet\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for \"Selaucami\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click submit button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should only see \"0\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see \"Not found.\" message",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    As a user\n    I should be able to search by Star Wars character full names or partial names\n    So that I can see his / her details",
+    "keyword": "Feature",
+    "name": "Search for a Star Wars character(person)",
+    "line": 2,
+    "id": "search-for-a-star-wars-character(person)",
+    "tags": [
+      {
+        "name": "@searchPerson",
+        "line": 1
+      },
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/searchPerson.feature",
+    "elements": [
+      {
+        "id": "search-for-a-star-wars-character(person);search-by-character-full-name-by-pressing-enter-button",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search by character full name by pressing enter button",
+        "tags": [
+          {
+            "name": "@searchPerson",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"People\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for \"Luke Skywalker\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should only see \"1\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Luke Skywalker\" details \"male\" ,\"19BBY\",\"blue\",\"fair\"",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character(person);search-by-character-full-name-by-pressing-enter-button",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Search by character full name by pressing enter button",
+        "tags": [
+          {
+            "name": "@searchPerson",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"People\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for \"Beru Whitesun lars\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should only see \"1\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Beru Whitesun lars\" details \"female\" ,\"47BBY\",\"blue\",\"light\"",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character(person);search-by-character-last-name-(partial)-by-clicking-submit-button",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Search by character last name (partial) by clicking submit button",
+        "tags": [
+          {
+            "name": "@searchPerson",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I select \"People\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I search for \"lars\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click submit button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should only see \"3\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "FieldName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Name"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Gender"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "BirthYear"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "EyeColor"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "SkinClor"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I should have the following details for all \"3\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    As a user\n    I should be able to search by Star Wars planet full names or partial names\n    So that I can see planet details",
+    "keyword": "Feature",
+    "name": "Search for a Star Wars planet",
+    "line": 2,
+    "id": "search-for-a-star-wars-planet",
+    "tags": [
+      {
+        "name": "@searchPlanet",
+        "line": 1
+      },
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/searchPlanet.feature",
+    "elements": [
+      {
+        "id": "search-for-a-star-wars-planet;search-by-planet-full-name",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Search by planet full name",
+        "tags": [
+          {
+            "name": "@searchPlanet",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"planet\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for \"Alderaan\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click submit button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should only see \"1\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Alderaan\" planet \"2000000000\" ,\"temperate\",\"1 standard\" details",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-by-planet-full-name",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Search by planet full name",
+        "tags": [
+          {
+            "name": "@searchPlanet",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"planet\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for \"Mustafar\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click submit button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should only see \"1\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Mustafar\" planet \"20000\" ,\"hot\",\"1 standard\" details",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planet;search-by-planet-partial-name",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Search by planet partial name",
+        "tags": [
+          {
+            "name": "@searchPlanet",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I select \"planet\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I search for \"da\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should only see \"5\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "FieldName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Name"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Population"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Climate"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Gravity"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I should have the following details for all \"5\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    As a user\n    I should be able to search by Star Wars character full names or partial names and I can see his / her details\n    I clear the search form and search\n    So that I should then get an empty result list (previous search results are removed).",
+    "keyword": "Feature",
+    "name": "Clear Search resuts",
+    "line": 2,
+    "id": "clear-search-resuts",
+    "tags": [
+      {
+        "name": "@searchresults",
+        "line": 1
+      },
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/searchResultsClear.feature",
+    "elements": [
+      {
+        "id": "clear-search-resuts;search-by-character-full-name-and-clear-search-results",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Search by character full name and clear search results",
+        "tags": [
+          {
+            "name": "@searchresults",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"People\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for \"Luke Skywalker\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should only see \"1\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Luke Skywalker\" details \"male\" ,\"19BBY\",\"blue\",\"fair\"",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I clear the search form",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should only see \"0\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 12000000,
+              "error_message": "AssertionError: Search results should only display as per expected but mismatching results: expected 0 to equal 1\n    + expected - actual\n\n    -0\n    +1\n\n    at /Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/e2e/steps/peopleSearch.steps.ts:13:33\n    at ManagedPromise.invokeCallback_ (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "clear-search-resuts;search-by-planet-partial-name-and-clear-search-results",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Search by planet partial name and clear search results",
+        "tags": [
+          {
+            "name": "@searchresults",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I select \"planet\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I search for \"da\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I should only see \"5\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "FieldName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Name"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Population"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Climate"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Gravity"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I should have the following details for all \"5\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I clear the search form",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I should only see \"0\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:24"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -0\n    +5\n\n    at /Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/e2e/steps/planetSearch.steps.ts:27:31\n    at ManagedPromise.invokeCallback_ (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/smuggulla/Documents/GitHub/Subbu--qa-test-assessment-master/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    As a user\n    I search the planet which is valid name and I see the search results\n    I switch from planet to people and search with same name\n    So that I should not see any details in search results",
+    "keyword": "Feature",
+    "name": "Search not found when switch from planet to people",
+    "line": 2,
+    "id": "search-not-found-when-switch-from-planet-to-people",
+    "tags": [
+      {
+        "name": "@switchsearch",
+        "line": 1
+      },
+      {
+        "name": "@e2e",
+        "line": 1
+      }
+    ],
+    "uri": "e2e/features/switchSearchError.feature",
+    "elements": [
+      {
+        "id": "search-not-found-when-switch-from-planet-to-people;search-by-planet-full-name-and-switch-to-people-to-search-with-same-name",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Search by planet full name and switch to people to search with same name",
+        "tags": [
+          {
+            "name": "@switchsearch",
+            "line": 1
+          },
+          {
+            "name": "@e2e",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select \"planet\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I search for \"Dagobah\" name",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click submit button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should only see \"1\" planets",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see \"Dagobah\" planet \"unknown\" ,\"murky\",\"N/A\" details",
+            "match": {
+              "location": "e2e/steps/planetSearch.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I select \"people\" to search",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I press enter button",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should only see \"0\" characters",
+            "match": {
+              "location": "e2e/steps/peopleSearch.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should see \"Not found.\" message",
+            "match": {
+              "location": "e2e/steps/searchForm.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
